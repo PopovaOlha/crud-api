@@ -1,0 +1,29 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "CRUD API",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/index.ts",
+    "start:prod": "npx webpack && node ./dist/bundle.js",
+    "test": "jest",
+    "start:multi": "nodemon src/multi/multiAPI.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PopovaOlha/crud-api.git"
+  },
+  "author": "Olha Popova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PopovaOlha/crud-api/issues"
+  },
+  "homepage": "https://github.com/PopovaOlha/crud-api#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "dotenv": "^16.4.3",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "uuid": "^9.0.1"
+  }
+}
