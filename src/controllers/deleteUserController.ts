@@ -1,7 +1,7 @@
 import { IncomingMessage, ServerResponse } from "http";
 import { dataAllUsers } from "../helpers/usersData";
 import { User } from "../models/User";
-import { getUserById } from "./getUserByIdController.ts";
+import { getUserById } from "./getUserByIdController";
 import {
   getNewDataCode204,
   invalidDataAboutUserCode400,
